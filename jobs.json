@@ -1,7 +1,8 @@
 [
   {
-    "marquee": "New Job Gonna be Avaliable Soon" {
-      
+    "marquee": {
+      "bool": "true"
+      "title": "New Job Gonna be Available Soon"      
     } 
   },
   {
