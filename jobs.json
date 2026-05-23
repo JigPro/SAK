@@ -1,6 +1,7 @@
 [
   {
     "marquee": {
+      // #have to trigger bool to active
       "title": "New Jobs Gonna Be Available Soon"
     } 
   },
