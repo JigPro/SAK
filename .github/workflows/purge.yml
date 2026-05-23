@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'jobs.json' # This triggers only when you update this file
+      - 'maths.json' # Triggers when you update the math quiz too
 
 jobs:
   purge:
@@ -10,3 +11,5 @@ jobs:
     steps:
       - name: Purge jsDelivr Cache
         run: curl -i https://purge.jsdelivr.net/github/JigPro/SAK/main/jobs.json
+      - name: Purge jsDelivr Cache (Maths)
+        run: curl -i https://purge.jsdelivr.net/github/JigPro/SAK/main/maths.json
